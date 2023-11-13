@@ -10,58 +10,122 @@
 </head>
 <body>
     <main class="container-fluid text-center">
-        <section class="container-fluid text-center section_ventas">
+        <section id="header_section container-fluid text center">
             <div class="row">
-                <div class="col col-lg-12 col-md-12 producto1">
-                    <a href="../pages/producto.html">
-                        <img src="../css/multimedia/harry-potter/harry-1.webp" alt="harry potter funko pop">
+                <div class="col item1">
+                    <a href="./productos.html">Ultimos Productos!</a>
+                </div>
+            </div>
+            <div class="header row">
+                <nav class="navbar bg-body-tertiary fixed-top">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="./pages/carrito.html"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-bag" viewBox="0 0 16 16">
+                        <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                      </svg></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                          </svg>
+                      </button>
+                      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                          
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="./productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active" aria-current="page" href="./registrate.html">Registrate</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+                <div class="nav_bar col">
+                    <nav>
+                        <a href="../index.html">Inicio</a>
+                        <a href="./productos.html">Productos</a>
+                        <a href="./registrate.html">Registrate</a>
+                    </nav>
+                </div>
+                <div class="carrito col">
+                    <a href="./carrito.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                          </svg>
                     </a>
-                </div>
-                <div class="col col-lg-12 descripcion">
-                    <h4>Harry Potter!</h4>
-                    <p class="p_producto">Funko Pop de Harry Potter 100% recomendado para añadir a tu colección!</p>
-                    <p class="p_producto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis assumenda ad deserunt hic quo ipsam itaque enim, asperiores quod nulla quibusdam. Nisi unde facere nam non molestias assumenda, aut obcaecati, voluptatum, ut vitae saepe! Commodi fuga architecto corrupti deleniti voluptas.</p>
-                </div>
-            
-            
-            
-                <div class="col col-lg-12 col-md-12  producto1">
-                    <a href="../pages/producto.html">
-                        <img src="../css/multimedia/harry-potter/hermione-1.webp" alt="harry potter funko pop">
-                    </a>
-                </div>
-                <div class="col col-lg-12 descripcion">
-                    <h4>Hermione!</h4>
-                    <p class="p_producto">Funko Pop de Hermione 100% recomendado para añadir a tu colección!</p>
-                    <p class="p_producto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis assumenda ad deserunt hic quo ipsam itaque enim, asperiores quod nulla quibusdam. Nisi unde facere nam non molestias assumenda, aut obcaecati, voluptatum, ut vitae saepe! Commodi fuga architecto corrupti deleniti voluptas.</p>
-                </div>
-            
-                <div class="col col-lg-12 col-md-12 producto1">
-                    <a href="../pages/producto.html">
-                        <img src="../css/multimedia/harry-potter/luna-1.webp" alt="harry potter funko pop">
-                    </a>
-                </div>
-                <div class="col col-lg-12 descripcion">
-                    <h4>Luna!</h4>
-                    <p class="p_producto">Funko Pop de Luna 100% recomendado para añadir a tu colección!</p>
-                    <p class="p_producto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis assumenda ad deserunt hic quo ipsam itaque enim, asperiores quod nulla quibusdam. Nisi unde facere nam non molestias assumenda, aut obcaecati, voluptatum, ut vitae saepe! Commodi fuga architecto corrupti deleniti voluptas.</p>
-                </div>
-            
-            
-                
-                <div class="col col-lg-12 col-md-12  producto1">
-                    <a href="../pages/producto.html">
-                        <img src="../css/multimedia/harry-potter/snape-patronus-1.webp" alt="harry potter funko pop">
-                    </a> 
-                </div>
-                <div class="col col-lg-12 descripcion">
-                    <h4>Snape Patronus!</h4>
-                    <p>Funko Pop de Snape Patronus 100% recomendado para añadir a tu colección!</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis assumenda ad deserunt hic quo ipsam itaque enim, asperiores quod nulla quibusdam. Nisi unde facere nam non molestias assumenda, aut obcaecati, voluptatum, ut vitae saepe! Commodi fuga architecto corrupti deleniti voluptas.</p>
                 </div>
             </div>
         </section>
     
+        
+    
+        <section class="container-fluid text-center section_ventas">
+            <div class="row">
+                <div class="col col-md-6 col-sm-12 col-xs-12 producto1">
+                    <a href="./pages/producto.html">
+                        <img src="../css/multimedia/harry-potter/harry-1.webp" alt="harry potter funko pop">
+                    </a>
+
+                    <div class="descripcion">
+                        <h4>Harry Potter!</h4>
+                        <p class="p_producto">Funko Pop de Harry Potter 100% recomendado para añadir a tu colección!</p>
+                        <p class="p_producto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis assumenda ad deserunt hic quo ipsam itaque enim, asperiores quod nulla quibusdam. Nisi unde facere nam non molestias assumenda, aut obcaecati, voluptatum, ut vitae saepe! Commodi fuga architecto corrupti deleniti voluptas.</p>
+                    </div>
+                </div>
+                
+            
+            
+            
+                <div class="col col-md-6 col-sm-12 col-xs-12 producto1">
+                    <a href="./pages/producto.html">
+                        <img src="../css/multimedia/harry-potter/hermione-1.webp" alt="harry potter funko pop">
+                    </a>
+
+                    <div class="descripcion">
+                        <h4>Hermione!</h4>
+                        <p class="p_producto">Funko Pop de Hermione 100% recomendado para añadir a tu colección!</p>
+                        <p class="p_producto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis assumenda ad deserunt hic quo ipsam itaque enim, asperiores quod nulla quibusdam. Nisi unde facere nam non molestias assumenda, aut obcaecati, voluptatum, ut vitae saepe! Commodi fuga architecto corrupti deleniti voluptas.</p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="row">
+                <div class="col col-md-6 col-sm-12 col-xs-12 producto1">
+                    <a href="./pages/producto.html">
+                        <img src="../css/multimedia/harry-potter/luna-1.webp" alt="harry potter funko pop">
+                    </a>
+                    <div class="descripcion">
+                        <h4>Luna!</h4>
+                        <p class="p_producto">Funko Pop de Luna 100% recomendado para añadir a tu colección!</p>
+                        <p class="p_producto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis assumenda ad deserunt hic quo ipsam itaque enim, asperiores quod nulla quibusdam. Nisi unde facere nam non molestias assumenda, aut obcaecati, voluptatum, ut vitae saepe! Commodi fuga architecto corrupti deleniti voluptas.</p>
+                    </div>
+                </div>
+                <div class="col col-md-6 col-sm-12 col-xs-12 producto1">
+                    <a href="./pages/producto.html">
+                        <img src="../css/multimedia/harry-potter/snape-patronus-1.webp" alt="harry potter funko pop">
+                    </a> 
+                    <div class="col descripcion">
+                        <h4>Snape Patronus!</h4>
+                        <p>Funko Pop de Snape Patronus 100% recomendado para añadir a tu colección!</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis assumenda ad deserunt hic quo ipsam itaque enim, asperiores quod nulla quibusdam. Nisi unde facere nam non molestias assumenda, aut obcaecati, voluptatum, ut vitae saepe! Commodi fuga architecto corrupti deleniti voluptas.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        
+        
+        
+        
         <footer class="row footer">
             <div class="col footer_izq">
                 <a href="#">Configuración de las cookies</a>
