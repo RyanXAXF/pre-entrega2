@@ -1,0 +1,19 @@
+{
+  "name": "codigo_fuente",
+  "version": "1.0.0",
+  "description": "Proyecto Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanXAXF/pre-entrega2.git"
+  },
+  "author": "Ryan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyanXAXF/pre-entrega2/issues"
+  },
+  "homepage": "https://github.com/RyanXAXF/pre-entrega2#readme"
+}
