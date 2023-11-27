@@ -1,0 +1,42 @@
+@media(max-width: 730px){
+    .navbar{
+        display: contents;
+    }
+    .carrito{
+        display: none;
+        
+    }    
+    .nav_bar{
+        display: none;
+    }
+    .carrusel{
+        display: none;
+    }
+    .descripcion{
+        display: none;
+    }
+
+}
+
+@media(max-width:940px){
+    .section_ventas img{
+        max-width: 80%;
+    }
+
+    .navbar{
+        display: contents;
+    }
+    .carrito{
+        display: none;
+        
+    } 
+    .nav_bar{
+        display: none;
+    }
+    .carrusel{
+        display: none;
+    }
+    .descripcion{
+        display: none;
+    }
+}

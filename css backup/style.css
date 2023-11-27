@@ -110,16 +110,9 @@ justify-content: flex-end;
 .producto1{
     font-size: 30px;
 }
-.nav_bar_elements{
-    padding: 4em 2em ;
-    background-color: #0F2D2E;
 
-}
 
-.nav_bar_elements input{
-    margin: 20px;
-    color: #04040B;
-}
+
 
 .productos{
     margin: 2em;
