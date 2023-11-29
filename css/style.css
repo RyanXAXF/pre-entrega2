@@ -84,6 +84,41 @@ body {
   font-size: 20px;
 }
 
+.carrito-container {
+  height: 100%;
+  background-color: white;
+  padding-top: 200px;
+  padding-left: 10%;
+}
+.carrito-container h4 {
+  padding-bottom: 30px;
+}
+.carrito-container a {
+  text-decoration: none;
+  color: black;
+}
+.carrito-container a .img-carrito {
+  width: 100px;
+}
+.carrito-container .carta {
+  display: flex;
+  justify-content: space-between;
+  border: solid 2px black;
+  margin-right: 30px;
+}
+.carrito-container .btn-carta {
+  padding: 10px 50px;
+  background-color: rgb(37, 37, 37);
+  margin-right: 30px;
+}
+.carrito-container .btn-carta input {
+  background-color: white;
+  padding: 5px 30px;
+}
+.carrito-container .btn-carta input:hover {
+  background-color: rgb(232, 232, 232);
+}
+
 /*SECCION HEADER*/
 @keyframes rotar {
   to {
