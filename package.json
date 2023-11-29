@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/RyanXAXF/pre-entrega2/issues"
   },
-  "homepage": "https://github.com/RyanXAXF/pre-entrega2#readme"
+  "homepage": "https://github.com/RyanXAXF/pre-entrega2#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
 }

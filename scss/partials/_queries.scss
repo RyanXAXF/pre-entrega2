@@ -1,42 +1,109 @@
+@media(max-width: 600px){
+    main{
+        .section_ventas{
+            .row{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .producto1{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    
+}
+
 @media(max-width: 730px){
-    .navbar{
-        display: contents;
+    .header_section{
+        .header{
+            .navbar{
+                display: contents;
+            }
+            .nav_bar{
+                display: none;
+            }
+            .carrito{
+                display: none;
+            }
+        }
     }
-    .carrito{
-        display: none;
-        
-    }    
-    .nav_bar{
-        display: none;
-    }
-    .carrusel{
-        display: none;
-    }
-    .descripcion{
-        display: none;
+    .banner{        
+        .carrusel{
+            display: none;
+        }
     }
 
+    .section_ventas{
+        div{
+            .producto1{
+                a{
+                    img{
+                        width: 100%;
+                    }
+                }
+                
+            }
+        }
+    }
+
+    .footer_section{
+        .footer{
+            height: 15em;
+            background-color: $color_negro;
+            color: #FAF4F0;
+        
+            .footer_izq{
+                margin: 0 0;  
+                @include display_flex;
+                flex-wrap: wrap;
+        
+                a{
+                    margin: $margin20;
+                    text-decoration: none;
+                }
+            }
+        
+            .footer_der{
+                @include display_flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+        
+                a{
+                    margin: $margin20;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
 }
 
 @media(max-width:940px){
     .section_ventas img{
         max-width: 80%;
     }
-
-    .navbar{
-        display: contents;
+    .header_section{
+        .header{
+            .navbar{
+                display: contents;
+            }
+            .nav_bar{
+                display: none;
+            }
+            .carrito{
+                display: none;
+            }
+        }
     }
-    .carrito{
-        display: none;
-        
-    } 
-    .nav_bar{
-        display: none;
-    }
-    .carrusel{
-        display: none;
-    }
-    .descripcion{
-        display: none;
+    
+    .section_ventas{
+        .producto_index{
+            display: flex;
+            flex-direction: column;
+            
+            .descripcion{
+                display: none;
+            }
+        }
     }
 }
