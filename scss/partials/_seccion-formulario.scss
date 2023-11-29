@@ -1,0 +1,32 @@
+.form-container{
+    background-color: rgb(238, 238, 238);
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    .row{
+        
+        div{
+            .form-text{
+                padding: 30px;
+            }
+            .form-items{
+                padding: 20px;
+            }
+            .input{
+                background-color: rgb(238, 238, 238);
+                
+            }
+            .btn-input{
+                padding: 10px 50px;
+                background-color: rgb(43, 43, 43);
+                color: white;
+            }
+           
+        }
+    }
+    .form-text{
+        color: black;
+        font-size: $font-size;
+    }
+}

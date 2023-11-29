@@ -27,6 +27,9 @@ body {
   padding: 0;
 }
 
+.section_ventas {
+  padding-top: 200px;
+}
 .section_ventas .row .producto1 a {
   color: white;
   text-decoration: none;
@@ -55,6 +58,32 @@ body {
   font-size: 15px;
 }
 
+.form-container {
+  background-color: rgb(238, 238, 238);
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+.form-container .row div .form-text {
+  padding: 30px;
+}
+.form-container .row div .form-items {
+  padding: 20px;
+}
+.form-container .row div .input {
+  background-color: rgb(238, 238, 238);
+}
+.form-container .row div .btn-input {
+  padding: 10px 50px;
+  background-color: rgb(43, 43, 43);
+  color: white;
+}
+.form-container .form-text {
+  color: black;
+  font-size: 20px;
+}
+
 /*SECCION HEADER*/
 @keyframes rotar {
   to {
@@ -63,6 +92,11 @@ body {
   from {
     transform: 180deg;
   }
+}
+.header_section {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 .header_section .row .item1 {
   height: 2em;
@@ -118,6 +152,7 @@ body {
   min-height: 40em;
   background-size: cover;
   background-position: center;
+  padding-top: 200px;
 }
 .banner .carrusel {
   display: flex;
