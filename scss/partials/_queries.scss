@@ -1,5 +1,27 @@
 @media(max-width: 600px){
     main{
+        .header_section{
+            .header{
+                .navbar{
+                    display: contents;
+                }
+                .nav_bar{
+                    display: none;
+                }
+                .carrito{
+                    display: none;
+                }
+                .logo{
+                    display: none;
+                }
+                .logo2{
+                    img{
+                        width: 100px;
+                        height: 80px;
+                    }
+                }
+            }
+        }
         .section_ventas{
             .row{
                 display: flex;
@@ -92,6 +114,15 @@
             }
             .carrito{
                 display: none;
+            }
+            .logo{
+                display: none;
+            }
+            .logo2{
+                img{
+                    width: 200px;
+                    height: 100px;
+                }
             }
         }
     }

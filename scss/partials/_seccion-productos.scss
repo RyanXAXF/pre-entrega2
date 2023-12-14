@@ -2,6 +2,11 @@
     padding-top: 200px;
     .row{
         .producto1{
+            padding: 30px;
+            &:hover{
+                background-color: rgba(115, 0, 160, 0.908);
+                border-radius: 20px;
+            }
             a{
                 color: white;
                 text-decoration: none;
@@ -13,6 +18,7 @@
                     &:hover{
                         transform: translate(15px);
                         transform: scale(1.2);
+                        
                     }
                 }
                 .img_extras{
